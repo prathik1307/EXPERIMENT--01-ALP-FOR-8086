@@ -161,12 +161,12 @@ hlt
 ```
 mov al,75h
 mov bl,66h
-xor al,
+xor al,bl
 hlt
 ```
 
 ## output
-![Screenshot 2025-03-10 085416](https://github.com/user-attachments/assets/8edaa50d-6a2a-47a0-9bc5-2ba152d57c49)
+**![Screenshot 2025-03-10 085416](https://github.com/user-attachments/assets/8edaa50d-6a2a-47a0-9bc5-2ba152d57c49)**
 
 
 
