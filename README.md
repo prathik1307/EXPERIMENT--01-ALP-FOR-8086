@@ -104,7 +104,7 @@ hlt
 ```
 mov al,75h
 mov bl,66h
-mul al,bl 
+mul bl 
 hlt
 ```
  ## Output  
@@ -115,7 +115,7 @@ hlt
 ```
 mov al,75h
 mov bl,66h
-div al,bl 
+div al 
 hlt
 ```
 
