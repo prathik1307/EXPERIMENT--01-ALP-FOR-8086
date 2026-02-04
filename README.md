@@ -79,91 +79,106 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 ## Addition  of 8 bit ALP 
 ```
-Mov AL,74H
-MOV BL,69H
-ADD AL,BL
-HLT
+mov al,75h
+mov bl,66h
+add al,bl 
+hlt
 ```
-## Output  
- ![image](https://github.com/user-attachments/assets/09803bdd-7411-49a0-a19a-849f49655b0a)
+## Output
+![ss2pmcadd](https://github.com/user-attachments/assets/2051293f-2b3a-483c-9595-100e363a6390)
 
+
+ 
 ## Subtraction   of 8 bit numbers  ALP 
 ```
-Mov AL,74H
-MOV BL,69H
-SUB AL,BL
-HLT
+mov al,75h
+mov bl,66h
+sub al,bl 
+hlt
 ```
-## Output  
-![image](https://github.com/user-attachments/assets/929b7249-2bda-49cc-b7bd-691778701d57)
+ ## Output
+ ![ss2pmcsub](https://github.com/user-attachments/assets/a48466a2-3f70-4327-880b-73a3f794b5c2)
+
 
 ## Multiplication alp 
 ```
-org 100h
-Mov AL,74H
-MOV BL,69H
-MUL BL
-HLT
-ret
+mov al,75h
+mov bl,66h
+mul al,bl 
+hlt
 ```
  ## Output  
-![image](https://github.com/user-attachments/assets/6e1c7b85-a922-4e37-8a90-ae6c2f4882e0)
+ ![ss2pmcmul](https://github.com/user-attachments/assets/5c7d5a24-794b-4864-9a97-6037162c6837)
 
 
 ## Division alp 
 ```
-MOV AL,68H
-MOV BL,18H
-DIV BL
-HLT
+mov al,75h
+mov bl,66h
+div al,bl 
+hlt
 ```
+
+
 ## Output  
-![image](https://github.com/user-attachments/assets/bc8b241c-c2dc-4956-b257-8f9d7ffa0d7a)
+![ss2pmcdiv](https://github.com/user-attachments/assets/ebb4f04a-b3a8-4002-80ff-4df66f58ab34)
+
 
 ## And of 8 bit numbers ALP
-```assembly
-MOV AL,33H
-MOV BL,44H
-AND AL,BL
-HLT
 ```
-## Output
-![image](https://github.com/user-attachments/assets/1f70ed7f-a214-4cb8-999c-adcd31784382)
-
-
-## OR of 8 bit numbers ALP
-```assembly
-MOV AL,45H
-MOV BL,66H
-OR AL,BL
-HLT
+mov al,75h
+mov bl,66h
+and al,bl 
+hlt
 ```
-## Output
-![image](https://github.com/user-attachments/assets/f2363e83-9f02-4a06-8754-e2a5f5b9cd97)
+## output
+![Screenshot 2025-03-10 084528](https://github.com/user-attachments/assets/003815f9-ef08-45de-b5b0-3bb8e3c6c73a)
 
-
-## NOT of 8 bit number ALP
-```assembly
-MOV AL,65H
-NOT AL
-HLT
+## Or of 8 bit numbers ALP
 ```
-## Output
-![image](https://github.com/user-attachments/assets/a29500ad-06ec-44d4-bde9-f5c762d42f20)
-
-
-## XOR of 8 bit number ALP
-```assembly
-MOV AL,66H
-MOV BL,77H
-XOR AL,BL
-HLT
+mov al,75h
+mov bl,66h
+or al,bl 
+hlt
 ```
 
-## Output
-![image](https://github.com/user-attachments/assets/ec2e9fe5-3ebe-42c7-a9be-54a8a69e4f91)
+## output
+![Screenshot 2025-03-10 084556](https://github.com/user-attachments/assets/88e9db92-d89d-4e3f-9c8f-265ee55c304e)
+
+## Not of 8 bit numbers ALP
+```
+mov al,75h
+mov bl,66h
+not al,
+hlt
+```
+
+## output
+![Screenshot 2025-03-10 084649](https://github.com/user-attachments/assets/80a8119d-88d6-48e6-9369-9273f0c90e9c)
+
+## xor of 8 bit numbers ALP
+```
+mov al,75h
+mov bl,66h
+xor al,
+hlt
+```
+
+## output
+![Screenshot 2025-03-10 085416](https://github.com/user-attachments/assets/8edaa50d-6a2a-47a0-9bc5-2ba152d57c49)
+
+
+
+
 
 
 ## Result :
+Thus the program has been successfully completed
+ 
 
-The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
+
+
+
+
+
+
