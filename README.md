@@ -102,26 +102,27 @@ hlt
 
 ## Multiplication alp 
 ```
-mov al,75h
-mov bl,66h
-mul bl 
+mov ax,0075h
+mov bx,0066h
+mul ax
 hlt
 ```
  ## Output  
- ![ss2pmcmul](https://github.com/user-attachments/assets/5c7d5a24-794b-4864-9a97-6037162c6837)
+<img width="1919" height="1132" alt="Screenshot 2026-02-04 112158" src="https://github.com/user-attachments/assets/40a439c6-d179-493c-a4d8-e9a1e238b14b" />
 
 
 ## Division alp 
 ```
-mov al,75h
-mov bl,66h
-div bl 
+mov ax,0075h
+mov bx,0066h
+div ax 
 hlt
 ```
 
 
 ## Output  
-![ss2pmcdiv](https://github.com/user-attachments/assets/ebb4f04a-b3a8-4002-80ff-4df66f58ab34)
+<img width="1919" height="1139" alt="image" src="https://github.com/user-attachments/assets/67c749bc-20c5-4420-841a-866801690015" />
+
 
 
 ## And of 8 bit numbers ALP
