@@ -115,7 +115,7 @@ hlt
 ```
 mov al,75h
 mov bl,66h
-div al 
+div bl 
 hlt
 ```
 
